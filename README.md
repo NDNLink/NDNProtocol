@@ -20,12 +20,12 @@ If you just wish to run a NDNProtocol node without compiling it yourself, you ma
 either run the latest binary from our
 
 Installation from the debian or rpm repositories will create a `systemd`
-service that can be used to run a Polkadot node. This is disabled by default,
+service that can be used to run a NDN node. This is disabled by default,
 and can be started by running `systemctl start NDNProtocol` on demand (use
 `systemctl enable NDNProtocol` to make it auto-start after reboot). By default, it
 will run as the `NDNProtocol` user.  Command-line flags passed to the binary can
 be customised by editing `/etc/default/NDNProtocol`. This file will not be
-overwritten on updating polkadot. You may also just run the node directly from
+overwritten on updating NDN Protocol. You may also just run the node directly from
 the command-line.
 
 ### Debian-based (Debian, Ubuntu)
@@ -54,7 +54,7 @@ Currently supports Fedora 32 and CentOS 8, and derivatives.
 dnf install dnf-plugins-core
 # Add the repository and enable it
 dnf config-manager --add-repo https://releases.NDNProtocol.io/rpm/NDNProtocol.repo
-dnf config-manager --set-enabled polkadot
+dnf config-manager --set-enabled NDN
 # Install NDNProtocol (You may have to confirm the import of the GPG key, which
 # should have the following fingerprint: 9D4B2B6EB8F97156D19669A9FF0812D491B96798)
 dnf install NDNProtocol
@@ -104,14 +104,14 @@ Note that compilation is a memory intensive process. We recommend having 4 GiB o
 
 ## Networks
 
-This repo supports runtimes for Polkadot, Kusama, and Westend.
+This repo supports runtimes for NDN Protocol , Kusama, and Westend.
 
 ### Connect to NDNProtocol Mainnet
 
-Connect to the global Polkadot Mainnet network by running:
+Connect to the global NDN Protocol Mainnet network by running:
 
 ```bash
-./target/release/polkadot --chain=polkadot
+./target/release/NDN --chain=NDNProtocol
 ```
 
 
@@ -122,7 +122,7 @@ Connect to the global Polkadot Mainnet network by running:
 
 If you want to do anything on NDNProtocol, then you'll need to get an account and
 some NDN respectively. See the
-i.polkadot.network/docs/en/learn-DOT#getting-westies) on the Wiki.
+i.NDN.network/docs/en/learn-DOT#getting-westies) on the Wiki.
 
 ## Hacking on NDNProtocol
 
