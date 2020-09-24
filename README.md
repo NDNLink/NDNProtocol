@@ -9,23 +9,23 @@ Implementation of a https://ndn.link node in Rust based on the Substrate framewo
 
 [substrate-repo]: https://github.com/paritytech/substrate
 
-This repo contains runtimes for the Polkadot, Kusama, and Westend networks. The README provides
-information about installing the `polkadot` binary and developing on the codebase. For more
+This repo contains runtimes for the NDNProtocol networks. The README provides
+information about installing the `NDNProtocol` binary and developing on the codebase. For more
 specific guides, like how to be a validator, see the
 
 
 ## Installation
 
-If you just wish to run a NDN  Protocol node without compiling it yourself, you may
+If you just wish to run a NDNProtocol node without compiling it yourself, you may
 either run the latest binary from our
 
 Installation from the debian or rpm repositories will create a `systemd`
-service that can be used to run a Polkadot node. This is disabled by default,
-and can be started by running `systemctl start polkadot` on demand (use
-`systemctl enable polkadot` to make it auto-start after reboot). By default, it
-will run as the `polkadot` user.  Command-line flags passed to the binary can
-be customised by editing `/etc/default/polkadot`. This file will not be
-overwritten on updating polkadot. You may also just run the node directly from
+service that can be used to run a NDN node. This is disabled by default,
+and can be started by running `systemctl start NDNProtocol` on demand (use
+`systemctl enable NDNProtocol` to make it auto-start after reboot). By default, it
+will run as the `NDNProtocol` user.  Command-line flags passed to the binary can
+be customised by editing `/etc/default/NDNProtocol`. This file will not be
+overwritten on updating NDN Protocol. You may also just run the node directly from
 the command-line.
 
 ### Debian-based (Debian, Ubuntu)
@@ -38,10 +38,10 @@ derivatives. Run the following commands as the `root` user.
 gpg --recv-keys --keyserver hkps://keys.mailvelope.com 9D4B2B6EB8F97156D19669A9FF0812D491B96798
 gpg --export 9D4B2B6EB8F97156D19669A9FF0812D491B96798 > /usr/share/keyrings/parity.gpg
 # Add the Parity repository and update the package index
-echo 'deb [signed-by=/usr/share/keyrings/parity.gpg] https://releases.parity.io/deb release main' > /etc/apt/sources.list.d/parity.list
+echo 'deb [signed-by=/usr/share/keyrings/NDNProtocol.gpg] https://releases.parity.io/deb release main' > /etc/apt/sources.list.d/NDNProtocol.list
 apt update
-# Install polkadot
-apt install polkadot
+# Install NDNProtocol
+apt install NDNProtocol
 
 ```
 
@@ -53,21 +53,21 @@ Currently supports Fedora 32 and CentOS 8, and derivatives.
 # Install dnf-plugins-core (This might already be installed)
 dnf install dnf-plugins-core
 # Add the repository and enable it
-dnf config-manager --add-repo https://releases.parity.io/rpm/polkadot.repo
-dnf config-manager --set-enabled polkadot
-# Install polkadot (You may have to confirm the import of the GPG key, which
+dnf config-manager --add-repo https://releases.NDNProtocol.io/rpm/NDNProtocol.repo
+dnf config-manager --set-enabled NDN
+# Install NDNProtocol (You may have to confirm the import of the GPG key, which
 # should have the following fingerprint: 9D4B2B6EB8F97156D19669A9FF0812D491B96798)
-dnf install polkadot
+dnf install NDNProtocol
 ```
 
 ## Building
 
 ### Install via Cargo
 
-If you want to install Polkadot in your PATH, you can do so with with:
+If you want to install NDNProtocol in your PATH, you can do so with with:
 
 ```bash
-cargo install --git https://github.com/paritytech/polkadot --tag <version> polkadot --locked
+cargo install --git https://github.com/NDNLink/NDNProtocol --tag <version> NDNProtocol --locked
 ```
 
 ### Build from Source
@@ -104,147 +104,28 @@ Note that compilation is a memory intensive process. We recommend having 4 GiB o
 
 ## Networks
 
-This repo supports runtimes for Polkadot, Kusama, and Westend.
+This repo supports runtimes for NDN Protocol , Kusama, and Westend.
 
-### Connect to Polkadot Mainnet
+### Connect to NDNProtocol Mainnet
 
-Connect to the global Polkadot Mainnet network by running:
-
-```bash
-./target/release/polkadot --chain=polkadot
-```
-
-You can see your node on [telemetry] (set a custom name with `--name "my custom name"`).
-
-[telemetry]: https://telemetry.polkadot.io/#list/Polkadot
-
-### Connect to the "Kusama" Canary Network
-
-Connect to the global Kusama canary network by running:
+Connect to the global NDN Protocol Mainnet network by running:
 
 ```bash
-./target/release/polkadot --chain=kusama
+./target/release/NDN --chain=NDNProtocol
 ```
 
-You can see your node on [telemetry] (set a custom name with `--name "my custom name"`).
 
-[telemetry]: https://telemetry.polkadot.io/#list/Kusama
 
-### Connect to the Westend Testnet
 
-Connect to the global Westend testnet by running:
-
-```bash
-./target/release/polkadot --chain=westend
-```
-
-You can see your node on [telemetry] (set a custom name with `--name "my custom name"`).
-
-[telemetry]: https://telemetry.polkadot.io/#list/Westend
 
 ### Obtaining DOTs
 
-If you want to do anything on Polkadot, Kusama, or Westend, then you'll need to get an account and
-some DOT, KSM, or WND tokens, respectively. See the
-[claims instructions](https://claims.polkadot.network/) for Polkadot if you have DOTs to claim. For
-Westend's WND tokens, see the faucet
-[instructions](https://wiki.polkadot.network/docs/en/learn-DOT#getting-westies) on the Wiki.
+If you want to do anything on NDNProtocol, then you'll need to get an account and
+some NDN respectively. See the
+i.NDN.network/docs/en/learn-DOT#getting-westies) on the Wiki.
 
-## Hacking on Polkadot
+## Hacking on NDNProtocol
 
-If you'd actually like hack on Polkadot, you can grab the source code and build it. Ensure you have
+If you'd actually like hack on NDNProtocol, you can grab the source code and build it. Ensure you have
 Rust and the support software installed. This script will install or update Rust and install the
 required dependencies (this may take up to 30 minutes on Mac machines):
-
-```bash
-curl https://getsubstrate.io -sSf | bash -s -- --fast
-```
-
-Then, grab the Polkadot source code:
-
-```bash
-git clone https://github.com/paritytech/polkadot.git
-cd polkadot
-```
-
-Then build the code. You will need to build in release mode (`--release`) to start a network. Only
-use debug mode for development (faster compile times for development and testing).
-
-```bash
-./scripts/init.sh   # Install WebAssembly. Update Rust
-cargo build # Builds all native code
-```
-
-You can run the tests if you like:
-
-```bash
-cargo test --all
-```
-
-You can start a development chain with:
-
-```bash
-cargo run -- --dev
-```
-
-Detailed logs may be shown by running the node with the following environment variables set:
-
-```bash
-RUST_LOG=debug RUST_BACKTRACE=1 cargo run -- --dev
-```
-
-### Development
-
-You can run a simple single-node development "network" on your machine by running:
-
-```bash
-polkadot --dev
-```
-
-You can muck around by heading to https://polkadot.js.org/apps and choose "Local Node" from the
-Settings menu.
-
-### Local Two-node Testnet
-
-If you want to see the multi-node consensus algorithm in action locally, then you can create a
-local testnet. You'll need two terminals open. In one, run:
-
-```bash
-polkadot --chain=polkadot-local --alice -d /tmp/alice
-```
-
-And in the other, run:
-
-```bash
-polkadot --chain=polkadot-local --bob -d /tmp/bob --port 30334 --bootnodes '/ip4/127.0.0.1/tcp/30333/p2p/ALICE_BOOTNODE_ID_HERE'
-```
-
-Ensure you replace `ALICE_BOOTNODE_ID_HERE` with the node ID from the output of the first terminal.
-
-### Using Docker
-[Using Docker](doc/docker.md)
-
-### Shell Completion
-[Shell Completion](doc/shell-completion.md)
-
-## Contributing
-
-### Contributing Guidelines
-
-[Contribution Guidelines](CONTRIBUTING.md)
-
-### Contributor Code of Conduct
-
-[Code of Conduct](CODE_OF_CONDUCT.md)
-
-## License
-
-Polkadot is [GPL 3.0 licensed](LICENSE).
-
-## Important Notice
-
-https://polkadot.network/testnetdisclaimer
-
-
-
-
