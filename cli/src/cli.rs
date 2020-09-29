@@ -18,6 +18,7 @@
 
 use structopt::StructOpt;
 
+
 #[allow(missing_docs)]
 #[derive(Debug, StructOpt)]
 pub enum Subcommand {
@@ -58,7 +59,9 @@ pub enum Subcommand {
 }
 
 #[allow(missing_docs)]
+
 #[derive(Debug, StructOpt)]
+
 pub struct ValidationWorkerCommand {
 	#[allow(missing_docs)]
 	pub mem_id: String,
