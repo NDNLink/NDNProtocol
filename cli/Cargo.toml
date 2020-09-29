@@ -1,8 +1,8 @@
 [package]
 name = "polkadot-cli"
 version = "0.8.24"
-authors = ["Parity Technologies <admin@parity.io>"]
-description = "Polkadot Relay-chain Client Node"
+authors = ["NDN  Technologies <info@NDN.link>"]
+description = "NDN Protocol Relay-chain Client Node"
 edition = "2018"
 
 [package.metadata.wasm-pack.profile.release]
