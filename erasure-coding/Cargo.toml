@@ -1,7 +1,7 @@
 [package]
 name = "polkadot-erasure-coding"
 version = "0.8.24"
-authors = ["Parity Technologies <admin@parity.io>"]
+authors = ["NDN Technologies <info@ndn.link>"]
 edition = "2018"
 
 [dependencies]
