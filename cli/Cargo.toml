@@ -5,6 +5,8 @@ authors = ["NDN  Technologies <info@NDN.link>"]
 description = "NDN Protocol Relay-chain Client Node"
 edition = "2018"
 
+
+
 [package.metadata.wasm-pack.profile.release]
 # `wasm-opt` has some problems on linux, see
 # https://github.com/rustwasm/wasm-pack/issues/781 etc.
