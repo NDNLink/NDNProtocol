@@ -1,6 +1,7 @@
 # Parachains Roadmap
 This is a roadmap for the core technology underlying Parachains - what protocols, APIs, and code paths need to be in place to fully instantiate a self-sufficient and secure parachain. We don't attempt to cover anything on what APIs a parachain toolkit might expose in order to make use of parachain features - only how those features are implemented and the low-level APIs that they expose to the validation function, if any.
 
+
 ## Categories
 We will use these categories to delineate features:
 
