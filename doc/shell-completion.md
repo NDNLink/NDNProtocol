@@ -9,6 +9,7 @@ Assuming you built a release version using `cargo build --release` and use `bash
 source target/release/completion-scripts/NDNProtocol.bash
 ```
 
+
 You can find completion scripts for:
 - bash
 - fish
