@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
+
 pushd .
 
 # The following line ensure we run from the project root
