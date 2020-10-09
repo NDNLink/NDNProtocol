@@ -17,6 +17,7 @@
 #   - validator-a: localhost:9944
 #   - sentry-a: localhost:9946
 
+
 version: "3.7"
 services:
   validator:
