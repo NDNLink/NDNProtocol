@@ -17,6 +17,7 @@
 //! The SlotRange struct which succinctly handles the ten values that
 //! represent all sub ranges between 0 and 3 inclusive.
 
+
 use sp_std::{result, ops::Add, convert::{TryFrom, TryInto}};
 use sp_runtime::traits::CheckedSub;
 use codec::{Encode, Decode};
