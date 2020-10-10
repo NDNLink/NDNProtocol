@@ -16,6 +16,7 @@
 
 //! A dummy module for holding place of modules in a runtime.
 
+
 use frame_support::{decl_module, decl_storage, decl_event};
 
 pub trait Trait<I: Instance = DefaultInstance>: frame_system::Trait {
