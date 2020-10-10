@@ -66,6 +66,7 @@
 //! order to win a later auction, then it is the parachain's duty to ensure that the right amount of
 //! funds ultimately end up in module's fund sub-account.
 
+
 use frame_support::{
 	decl_module, decl_storage, decl_event, decl_error, storage::child, ensure,
 	traits::{
