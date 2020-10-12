@@ -19,6 +19,7 @@
 //! The `ProposerFactory` exported by this module will be wrapped by some
 //! consensus engine, and triggered when it is time to create a block.
 
+
 use std::{
 	pin::Pin,
 	sync::Arc,
