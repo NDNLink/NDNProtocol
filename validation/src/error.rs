@@ -17,6 +17,7 @@
 //! Errors that can occur during the validation process.
 
 /// Error type for validation
+
 #[derive(Debug, derive_more::Display, derive_more::From)]
 pub enum Error {
 	/// Client error
