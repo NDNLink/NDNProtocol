@@ -14,6 +14,7 @@
 //! propose and attest to validity of candidates, and those who can only attest
 //! to availability.
 
+
 pub mod generic;
 
 pub use generic::{Table, Context};
