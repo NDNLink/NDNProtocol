@@ -17,6 +17,7 @@
 
 #![allow(unused_parens)]
 
+
 use frame_support::weights::{Weight, constants::RocksDbWeight as DbWeight};
 
 pub struct WeightInfo;
