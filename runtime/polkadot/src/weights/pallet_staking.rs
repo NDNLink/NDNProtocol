@@ -16,6 +16,7 @@
 //! Default weights of pallet-staking.
 //! THIS FILE WAS AUTO-GENERATED USING THE SUBSTRATE BENCHMARK CLI VERSION 2.0.0-rc6
 
+
 #![allow(unused_parens)]
 #![allow(unused_imports)]
 
