@@ -18,6 +18,7 @@
 //!
 //! Configuration can change only at session boundaries and is buffered until then.
 
+
 use sp_std::prelude::*;
 use primitives::v1::ValidatorId;
 use frame_support::{
