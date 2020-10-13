@@ -15,6 +15,7 @@
 // along with Polkadot.  If not, see <http://www.gnu.org/licenses/>.
 
 /// Money matters.
+
 pub mod currency {
 	use primitives::v0::Balance;
 
