@@ -1,5 +1,6 @@
 ### The easiest way
 
+
 The easiest/faster option is to use the latest image.
 
 Let´s first check the version we have. The first time you run this command, the NDNProtocol docker image will be downloaded. This takes a bit of time and bandwidth, be patient:
