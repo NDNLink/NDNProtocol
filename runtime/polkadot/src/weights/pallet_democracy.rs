@@ -17,6 +17,7 @@
 //! Weights for the Democracy Pallet
 //! THIS FILE WAS AUTO-GENERATED USING THE SUBSTRATE BENCHMARK CLI VERSION 2.0.0-rc5
 
+
 use frame_support::weights::{Weight, constants::RocksDbWeight as DbWeight};
 
 pub struct WeightInfo;
