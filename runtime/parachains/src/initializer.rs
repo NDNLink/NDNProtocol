@@ -19,6 +19,7 @@
 //!
 //! This module can throw fatal errors if session-change notifications are received after initialization.
 
+
 use sp_std::prelude::*;
 use frame_support::weights::Weight;
 use primitives::v1::ValidatorId;
