@@ -17,6 +17,7 @@
 //! The Collator Protocol allows collators and validators talk to each other.
 //! This subsystem implements both sides of the collator protocol.
 
+
 #![deny(missing_docs)]
 
 use std::time::Duration;
