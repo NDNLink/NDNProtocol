@@ -15,3 +15,4 @@
 // along with Polkadot.  If not, see <http://www.gnu.org/licenses/>.
 
 //! Stub - the fundamental logic of this crate is the integration tests.
+
