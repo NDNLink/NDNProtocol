@@ -1,6 +1,7 @@
 use super::{Curve, ELEM_MAX_BYTES, SEED_MAX_BYTES};
 use crate::{cpu, error, rand};
 
+
 pub struct KeyPair {
     seed: Seed,
     public_key: PublicKey,
