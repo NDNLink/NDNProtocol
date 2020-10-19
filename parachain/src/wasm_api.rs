@@ -20,6 +20,7 @@
 ///
 /// Offset and length must have been provided by the validation
 /// function's entry point.
+
 #[cfg(not(feature = "std"))]
 pub unsafe fn load_params(params: *const u8, len: usize)
 	-> crate::primitives::ValidationParams
