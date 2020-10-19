@@ -16,6 +16,7 @@
 
 //! WASM validation for adder parachain.
 
+
 use crate::{HeadData, BlockData};
 use core::{intrinsics, panic};
 use parachain::primitives::{ValidationResult, HeadData as GenericHeadData};
