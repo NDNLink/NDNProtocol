@@ -5,6 +5,7 @@ authors = ["Parity Technologies <admin@parity.io>"]
 description = "Types and utilities for creating and working with parachains"
 edition = "2018"
 
+
 [dependencies]
 # note: special care is taken to avoid inclusion of `sp-io` externals when compiling
 # this crate for WASM. This is critical to avoid forcing all parachain WASM into implementing
