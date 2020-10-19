@@ -1,6 +1,7 @@
 # This is the example from
 # https://tools.ietf.org/html/draft-irtf-cfrg-gcmsiv-04#section-8
 
+
 KEY: ee8e1ed9ff2540ae8f2ba9f50bc2f27c
 NONCE: 752abad3e0afb5f434dc4310
 IN: "Hello world"
