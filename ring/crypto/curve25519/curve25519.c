@@ -19,6 +19,7 @@
 //
 // The field functions are shared by Ed25519 and X25519 where possible.
 
+
 #include <GFp/mem.h>
 
 #include "internal.h"
