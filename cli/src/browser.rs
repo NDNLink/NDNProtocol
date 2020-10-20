@@ -52,3 +52,4 @@ async fn start_inner(chain_spec: String, log_level: String) -> Result<Client, Bo
 
 	Ok(browser_utils::start_client(task_manager, rpc_handlers))
 }
+
