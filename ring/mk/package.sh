@@ -3,6 +3,7 @@
 set -eux -o pipefail
 IFS=$'\n\t'
 
+
 # Make sure the current tree isn't dirty.
 # https://stackoverflow.com/a/5737794
 if [[ $(git status --porcelain | wc -c) -ne 0 ]]; then
