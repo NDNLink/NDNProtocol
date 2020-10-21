@@ -26,6 +26,7 @@
 // IllumOS' fork of OpenSSL:
 // https://github.com/joyent/illumos-extra/blob/master/openssl1x/sunw_prefix.h
 
+
 package main
 
 import (
