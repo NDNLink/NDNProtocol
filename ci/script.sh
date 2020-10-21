@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+
 set -eux
 
 # Install rustup and the specified rust toolchain.
