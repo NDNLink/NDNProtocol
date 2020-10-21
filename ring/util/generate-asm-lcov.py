@@ -17,6 +17,7 @@ import os.path
 import subprocess
 import sys
 
+
 # The LCOV output format for each source file is:
 #
 # SF:<filename>
