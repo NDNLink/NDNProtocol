@@ -3,6 +3,7 @@ authors = ["Brian Smith <brian@briansmith.org>"]
 name = "pregenerate_asm"
 version = "0.0.1"
 
+
 [[bin]]
 name = "pregenerate_asm"
 path = "../build.rs"
