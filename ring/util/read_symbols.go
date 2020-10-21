@@ -14,6 +14,7 @@
 
 // read_symbols scans one or more .a files and, for each object contained in
 // the .a files, reads the list of symbols in that object file.
+
 package main
 
 import (
