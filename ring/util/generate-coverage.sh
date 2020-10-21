@@ -58,3 +58,4 @@ rm -rf "$BUILD"
 rm -rf "$BUILD_SRC"
 
 xdg-open index.html
+
