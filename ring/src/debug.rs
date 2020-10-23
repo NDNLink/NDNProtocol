@@ -14,6 +14,7 @@
 
 // Generates an implementation of the Debug trait for a type that defers to the
 // Debug implementation for a given field.
+
 macro_rules! derive_debug_via_id {
     ($typename:ident) => {
         impl ::core::fmt::Debug for $typename {
