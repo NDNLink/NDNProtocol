@@ -22,6 +22,7 @@
 #[derive(Copy, Clone)]
 pub(crate) struct Features(());
 
+
 #[inline(always)]
 pub(crate) fn features() -> Features {
     // We don't do runtime feature detection on iOS. instead some features are
