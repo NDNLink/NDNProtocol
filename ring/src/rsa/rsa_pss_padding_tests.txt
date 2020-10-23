@@ -8,6 +8,7 @@
 # hash digest.
 #
 
+
 Digest = SHA256
 Msg = ""
 Salt = f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0
