@@ -14,6 +14,7 @@
 
 //! Constant-time operations.
 
+
 use crate::{c, error};
 
 /// Returns `Ok(())` if `a == b` and `Err(error::Unspecified)` otherwise.
