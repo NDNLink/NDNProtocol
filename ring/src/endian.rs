@@ -6,6 +6,7 @@ pub trait Encoding<T>: From<T> + Into<T> {
     const ZERO: Self;
 }
 
+
 /// Allow access to a slice of  of `Encoding<T>` as a slice of bytes.
 pub fn as_byte_slice<E: Encoding<T>, T>(x: &[E]) -> &[u8] {
     unsafe {
