@@ -19,6 +19,7 @@ pub struct BitLength(usize);
 
 // Lengths measured in bits, where all arithmetic is guaranteed not to
 // overflow.
+
 impl BitLength {
     #[inline]
     pub const fn from_usize_bits(bits: usize) -> Self {
