@@ -152,6 +152,7 @@ pub static PBKDF2_HMAC_SHA512: Algorithm = Algorithm(hmac::HMAC_SHA512);
 ///
 /// `derive` panics if `out.len()` is larger than (2**32 - 1) * the digest
 /// algorithm's output length, per the PBKDF2 specification.
+
 pub fn derive(
     algorithm: Algorithm,
     iterations: NonZeroU32,
