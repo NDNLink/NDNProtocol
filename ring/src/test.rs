@@ -158,6 +158,7 @@ pub struct TestCase {
     attributes: Vec<(String, String, bool)>,
 }
 
+
 #[cfg(feature = "alloc")]
 impl TestCase {
     /// Maps the string "true" to true and the string "false" to false.
