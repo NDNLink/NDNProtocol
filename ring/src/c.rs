@@ -22,6 +22,7 @@
 
 // Keep in sync with the checks in base.h that verify these assumptions.
 
+
 pub(crate) type int = i32;
 pub(crate) type uint = u32;
 pub(crate) type size_t = usize;
