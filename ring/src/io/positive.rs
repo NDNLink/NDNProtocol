@@ -18,6 +18,7 @@
 #[derive(Copy, Clone)]
 pub struct Positive<'a>(untrusted::Input<'a>);
 
+
 impl<'a> Positive<'a> {
     #[inline]
     pub(crate) fn new_non_empty_without_leading_zeros(input: untrusted::Input<'a>) -> Self {
