@@ -267,4 +267,5 @@ sub ::dataseg
 
 *::hidden = sub { push(@out,".hidden\t$nmdecor$_[0]\n"); } if ($::elf);
 
+
 1;
