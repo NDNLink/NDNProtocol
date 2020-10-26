@@ -231,3 +231,4 @@ print "#endif  // !OPENSSL_NO_ASM\n";
 print ".section\t.note.GNU-stack,\"\",\%progbits\n" if ($flavour =~ /linux/);
 
 close STDOUT;
+
