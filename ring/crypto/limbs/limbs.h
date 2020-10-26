@@ -38,3 +38,4 @@ void LIMBS_shl_mod(Limb r[], const Limb a[], const Limb m[], size_t num_limbs);
 Limb GFp_limbs_mul_add_limb(Limb r[], const Limb a[], Limb b, size_t num_limbs);
 
 #endif /* RING_LIMBS_H */
+
