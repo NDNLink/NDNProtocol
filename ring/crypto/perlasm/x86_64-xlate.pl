@@ -253,6 +253,7 @@ my %globals;
     sub size {}
     sub out {
 	my ($self, $sz) = @_;
+	
 
 	$self->{label} =~ s/([_a-z][_a-z0-9]*)/$globals{$1} or $1/gei;
 	$self->{label} =~ s/\.L/$decor/g;
