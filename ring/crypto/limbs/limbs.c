@@ -175,6 +175,7 @@ crypto_word LIMBS_window5_unsplit_window(Limb limb, size_t index_within_word) {
   return (limb >> index_within_word) & FIVE_BITS_MASK;
 }
 
+
 Limb LIMB_shr(Limb a, size_t shift) {
   return a >> shift;
 }
