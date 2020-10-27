@@ -31,6 +31,7 @@ use zeroize::Zeroize;
 /// An Ed25519 keypair.
 pub struct Keypair(ed25519::Keypair);
 
+
 impl Keypair {
     /// Generate a fixed Ed25519 keypair, used for test puepose only.
     pub fn generate_fixed() -> Keypair {
