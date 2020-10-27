@@ -65,6 +65,7 @@ pub struct SigningError {
     source: Option<Box<dyn Error + Send + Sync>>,
 }
 
+
 /// An error during encoding of key material.
 impl SigningError {
     pub(crate) fn new<S: ToString>(msg: S) -> Self {
