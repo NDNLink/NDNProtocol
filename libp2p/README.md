@@ -10,7 +10,6 @@ This repository is an alternative implementationof in `Rust` of the [libp2p](htt
 
 How to use the library?
 
-- API Documentation can be found: https://docs.rs/libp2p-rs
 - Design documentation can be found in `docs`
 
 Code examples:
