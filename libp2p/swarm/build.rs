@@ -18,6 +18,7 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 // DEALINGS IN THE SOFTWARE.
 
+
 fn main() {
     prost_build::compile_protos(&["src/identify/structs.proto"], &["src"]).unwrap();
 }
