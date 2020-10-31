@@ -258,4 +258,5 @@ mod tests {
 
         QuickCheck::new().quickcheck(property as fn(Vec<Ma>, u8) -> bool)
     }
+    
 }
