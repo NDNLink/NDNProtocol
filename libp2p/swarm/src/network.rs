@@ -18,6 +18,7 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 // DEALINGS IN THE SOFTWARE.
 
+
 use crate::connection::ConnectionInfo;
 
 /// Information about the network obtained by [`Network::info()`].
