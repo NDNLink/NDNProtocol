@@ -1,5 +1,6 @@
 # Upgrader
 
+
 Upgrader Contains everything related to upgrading a connection to use a protocol.
 
 After a connection with a remote has been successfully established. The next step is to *upgrade* this connection to use a protocol.
