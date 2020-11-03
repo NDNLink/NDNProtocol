@@ -1,6 +1,7 @@
 # p2p chat app with libp2p
 
 
+
 ## Intro
 This program demonstrates a simple p2p chat application. It can work between two peers if
 1. Both have a private IP address (same network).
