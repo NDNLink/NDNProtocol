@@ -2,6 +2,7 @@
 Muxing is the process of splitting a connection into multiple substreams.
 
 
+
 ## StreamMuxer Trait
 
 StreamMuxer Trait is an async trait, used to manipulate substreams over the underlying connection. An implementation of `StreamMuxer` has ownership of a connection, lets you open and close substreams, and read/write data on open substreams.
