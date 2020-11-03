@@ -51,6 +51,7 @@ In general, multiple protocol handlers should be made into trait objects and the
         self.muxer.add_protocol_handler(p);
         self
     }
+    
 ```
 
 
