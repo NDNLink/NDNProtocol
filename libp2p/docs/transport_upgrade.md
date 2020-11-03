@@ -38,6 +38,8 @@ TMux is also an `Upgrader`. It takes the TSec::Output as the input and upgrade i
 > Both TSec and TMux are wrapped and driven by Multistream for protocol negotiation and selection. 
 
 
+
+
 ### Known issues
 
 The `IListener` of Transport Upgrade should handle the incomming connections and the connnection upgrade in a asynchronous post-processing way, so that the upgrade procedure wouldn't block the `IListener` from producing the next incoming connection, hence further connection setup can be proceeded asynchronously. 
