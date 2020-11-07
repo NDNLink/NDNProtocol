@@ -25,3 +25,4 @@ echo -e "\nIf you just built version ${VERSION}, you may want to update your tag
 echo " $ docker tag ${GITUSER}/${GITREPO}:$VERSION ${GITUSER}/${GITREPO}:${VERSION}"
 
 popd
+
