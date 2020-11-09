@@ -9,6 +9,7 @@ keywords = ["peer-to-peer", "libp2p", "networking"]
 categories = ["network-programming", "asynchronous"]
 edition = "2018"
 
+
 [dependencies]
 async-trait = "0.1"
 unsigned-varint = "0.4"
