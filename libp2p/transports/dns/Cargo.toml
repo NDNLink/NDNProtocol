@@ -9,6 +9,7 @@ keywords = ["peer-to-peer", "libp2p", "networking"]
 categories = ["network-programming", "asynchronous"]
 edition = "2018"
 
+
 [dependencies]
 libp2prs-core = { version = "0.1.0", path = "../../core", package = "libp2prs-core"}
 log = "0.4"
