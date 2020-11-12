@@ -1,5 +1,6 @@
 [package]
 name = "libp2p-rs"
+
 version = "0.1.0"
 license = "MIT"
 description = "Minimal implementation for a multiplexed p2p network framework"
