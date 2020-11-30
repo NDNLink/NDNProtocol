@@ -68,6 +68,7 @@ impl Key {
         out
     }
 
+    
     pub fn encrypt_overlapping(&self, counter: Counter, in_out: &mut [u8], in_prefix_len: usize) {
         // XXX: The x86 and at least one branch of the ARM assembly language
         // code doesn't allow overlapping input and output unless they are
