@@ -234,6 +234,7 @@ pub(super) fn ghash(xi: &mut Xi, h: super::u128, input: &[u8]) {
     });
 }
 
+
 #[inline]
 fn with_swapped_xi(Xi(xi): &mut Xi, f: impl FnOnce(&mut [u64; 2])) {
     let unswapped = xi.u64s_be_to_native();
