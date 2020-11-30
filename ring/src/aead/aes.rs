@@ -66,6 +66,7 @@ fn encrypt_block_(
     }
 }
 
+
 macro_rules! ctr32_encrypt_blocks {
     ($name:ident, $in_out:expr, $in_prefix_len:expr, $key:expr, $ivec:expr ) => {{
         extern "C" {
