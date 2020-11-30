@@ -147,3 +147,4 @@ mod tests {
         assert_eq!(super::CHACHA20_POLY1305.max_input_len, 274_877_906_880u64);
     }
 }
+
