@@ -53,6 +53,8 @@ impl ValidationPool {
 	}
 }
 
+
+
 /// A stub function defined when compiling for Android or WASM.
 #[cfg(any(target_os = "android", target_os = "unknown"))]
 pub fn run_worker(_: &str) -> Result<(), String> {
