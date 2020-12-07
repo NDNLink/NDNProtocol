@@ -55,6 +55,7 @@ impl TaskExecutor {
 	}
 }
 
+
 impl SpawnNamed for TaskExecutor {
 	fn spawn_blocking(&self, _: &'static str, future: futures::future::BoxFuture<'static, ()>) {
 		self.0.spawn_ok(future);
