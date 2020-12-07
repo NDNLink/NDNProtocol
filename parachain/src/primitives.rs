@@ -190,6 +190,7 @@ impl<T: Encode + Decode + Default> AccountIdConversion<T> for Id {
 /// Which origin a parachain's message to the relay chain should be dispatched from.
 #[derive(Clone, PartialEq, Eq, Encode, Decode)]
 #[cfg_attr(feature = "std", derive(Debug, Hash))]
+
 #[repr(u8)]
 pub enum ParachainDispatchOrigin {
 	/// As a simple `Origin::Signed`, using `ParaId::account_id` as its value. This is good when
