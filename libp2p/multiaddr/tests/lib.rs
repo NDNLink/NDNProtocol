@@ -63,6 +63,7 @@ fn push_pop_identity() {
 #[derive(PartialEq, Eq, Clone, Hash, Debug)]
 struct Ma(Multiaddr);
 
+
 impl Arbitrary for Ma {
     fn arbitrary<G: Gen>(g: &mut G) -> Self {
         let iter = (0..g.next_u32() % 128).map(|_| Proto::arbitrary(g).0);
