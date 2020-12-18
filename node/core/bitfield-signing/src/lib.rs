@@ -86,6 +86,7 @@ pub enum FromJob {
 	RuntimeApi(RuntimeApiMessage),
 }
 
+
 impl From<FromJob> for AllMessages {
 	fn from(from_job: FromJob) -> AllMessages {
 		match from_job {
