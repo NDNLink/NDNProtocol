@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2018"
 
+
 [dependencies]
 bitvec = "0.17.4"
 derive_more = "0.99.9"
