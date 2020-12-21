@@ -29,4 +29,5 @@ pub fn eddsa_digest(signature_r: &[u8], public_key: &[u8], msg: &[u8]) -> digest
     ctx.update(public_key);
     ctx.update(msg);
     ctx.finish()
+    
 }
