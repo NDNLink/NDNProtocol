@@ -15,6 +15,7 @@
 //! Elliptic curve operations on the birationally equivalent curves Curve25519
 //! and Edwards25519.
 
+
 pub use super::scalar::{MaskedScalar, Scalar, SCALAR_LEN};
 use crate::{
     bssl, error,
