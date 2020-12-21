@@ -169,3 +169,4 @@ const PUBLIC_KEY_LEN: usize = ELEM_AND_SCALAR_LEN;
 // An X25519 shared secret as an encoded Curve25519 point.
 type SharedSecret = [u8; SHARED_SECRET_LEN];
 const SHARED_SECRET_LEN: usize = ELEM_AND_SCALAR_LEN;
+
