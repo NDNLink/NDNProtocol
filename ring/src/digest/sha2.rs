@@ -34,7 +34,8 @@ pub(super) extern "C" fn GFp_sha512_block_data_order(
     state: &mut super::State,
     data: *const u8,
     num: c::size_t,
-) {
+) 
+{
     let state = unsafe { &mut state.as64 };
     *state = block_data_order(*state, data, num)
 }
