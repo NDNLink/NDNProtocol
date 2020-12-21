@@ -109,4 +109,5 @@ fn step3(
 #[inline(always)]
 fn rotl(x: W32, n: u32) -> W32 {
     Wrapping(x.0.rotate_left(n))
+    
 }
