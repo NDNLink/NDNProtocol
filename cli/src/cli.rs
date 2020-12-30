@@ -23,6 +23,7 @@ use structopt::StructOpt;
 
 
 #[allow(missing_docs)]
+
 #[derive(Debug, StructOpt)]
 pub enum Subcommand {
 	/// Build a chain specification.
