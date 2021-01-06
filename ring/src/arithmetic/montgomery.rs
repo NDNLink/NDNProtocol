@@ -30,6 +30,7 @@ pub enum RR {}
 // Indicates the element is inversely encoded; the value has one
 // 1/*R* factor that needs to be canceled out.
 #[derive(Copy, Clone)]
+
 pub enum RInverse {}
 
 pub trait Encoding {}
