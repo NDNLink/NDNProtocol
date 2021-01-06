@@ -15,6 +15,7 @@
 // CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 use super::PUBLIC_KEY_PUBLIC_MODULUS_MAX_LEN;
+
 use crate::{bits, digest, error, io::der};
 use untrusted;
 
