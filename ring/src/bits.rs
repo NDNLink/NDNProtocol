@@ -63,3 +63,4 @@ impl BitLength {
         Ok(BitLength(sum))
     }
 }
+
