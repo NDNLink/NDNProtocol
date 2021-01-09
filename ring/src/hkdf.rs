@@ -1,5 +1,7 @@
 // Copyright 2015 Brian Smith.
 //
+
+
 // Permission to use, copy, modify, and/or distribute this software for any
 // purpose with or without fee is hereby granted, provided that the above
 // copyright notice and this permission notice appear in all copies.
@@ -118,6 +120,7 @@ impl Prk {
     pub fn new_less_safe(algorithm: Algorithm, value: &[u8]) -> Self {
         Self(hmac::Key::new(algorithm.hmac_algorithm(), value))
     }
+    
 
     /// The [HKDF-Expand] operation.
     ///
