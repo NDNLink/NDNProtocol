@@ -13,6 +13,9 @@ rustc --version
 rustup --version
 cargo --version
 
+
+
+
 case $TARGET in
 	"native")
 	
